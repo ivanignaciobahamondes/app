@@ -1,29 +1,20 @@
 # app
 
-Aplicacion React con Vite y TypeScript.
+Aplicacion web con Vite y TypeScript (vanilla, sin framework).
 
 ## Stack
-- React 19
 - TypeScript
 - Vite 8
-- CSS plano (sin framework de estilos por ahora)
+- CSS plano
 
 ## Estructura
-- `src/App.tsx` — componente raiz
-- `src/main.tsx` — punto de entrada
-- `src/index.css` — estilos globales
+- `src/main.ts` — punto de entrada
+- `src/style.css` — estilos globales
 
 ## Comandos
 - `npm run dev` — servidor de desarrollo (localhost:5173)
 - `npm run build` — build de produccion
 - `npm run preview` — previsualizar build
-
-## Convenciones
-- Componentes en `src/components/`
-- Paginas en `src/pages/`
-- Hooks personalizados en `src/hooks/`
-- Servicios/API en `src/services/`
-- Tipos TypeScript en `src/types/`
 
 ## GitHub
 - Repositorio: https://github.com/ivanignaciobahamondes/app
