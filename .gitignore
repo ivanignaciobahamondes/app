@@ -37,11 +37,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data / models (archivos grandes)
+# Data / modelos (archivos grandes — no subir al repo)
 *.csv
 *.xlsx
+*.txt
 *.pkl
 *.h5
 *.pt
 *.pth
-data/raw/
+data/
